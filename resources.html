@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Faculty Hub | UMSI</title>
 </head>
 <body>
-
+<img id="top-logo" src="images/logo-header.jpg" alt="UMSI Logo" width="350">
     <header>
-
-  <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" width="80">
+  <a href = "#main" class = "skip">Skip to Main Content</a>
         <nav>
             <ul>
                 <!-- make active class for current page-->
@@ -26,7 +28,7 @@
 <section> 
 <h1>Faculty Hub: Integrating Engaged Learning into Your Course</h1>
 <p><strong>Scaffold Essential Professional Skills in Your Curriculum</strong></p>
-<p><i>The UMSI Engaged Learning Office (ELO) partners with faculty to equip students with "durable" professional competencies in teamwork, client engagement, and project management. Discover workshops, custom in-class sessions, and campus partner resources designed for easy course integration.</i></p>
+<p>The UMSI Engaged Learning Office (ELO) partners with faculty to equip students with "durable" professional competencies in teamwork, client engagement, and project management. Discover workshops, custom in-class sessions, and campus partner resources designed for easy course integration.</p>
 </section>
 <p><strong>Request a <strong><a href="https://umsi.info/elo-workshops"> Custom Workshop</a></strong> or <a href= "#workshop">learn more</a></strong></p>
     <figure>
@@ -42,7 +44,7 @@
 <p>During the first month of the Fall and Winter terms, the ELO offers multiple workshop iterations focused on three core competency areas. Workshops are offered at introductory, intermediate, and advanced levels to match your course's student cohort.</p>
 <p><strong>Attendance Tracking for Faculty:</strong> Teaching an introductory or capstone course? With advance notice, the ELO can track and report student attendance to support course requirements or extra-credit incentives.</p>
 <h3>Core Competency Areas</h3>
-<ul>
+<ul class="nestedList">
     <li><strong>Teamwork & Collaboration</strong>
     <ul>
         <li>Fundamentals of teamwork & team establishment</li>
@@ -69,31 +71,31 @@
     </li>
 </ul>
 </section>    
+
 <section>
 <h2>Workshop Progression Levels</h2>
-<table>
-  <tr>
-    <th><strong>Development Level</strong></th>
-    <th><strong>Target Student Audience</strong></th>
-    <th><strong>Course Alignment</strong></th>
-  </tr>
-  <tr>
-    <td><strong>Introductory Level</strong></td>
-    <td>First-semester Master’s students & First-semester Juniors</td>
-    <td>Core required courses & foundational project labs</td>
-  </tr>
-  <tr>
-    <td><strong>Intermediate Level</strong></td>
-    <td>2nd & 3rd semester Master’s, 2nd-semester Juniors, 1st-semester Seniors</td>
-    <td>Elective project courses & applied research units</td>
-  </tr>
-  <tr>
-    <td><strong>Advanced Level</strong></td>
-    <td>Final-year Master’s students & Final-semester Seniors</td>
-    <td>Capstones, client clinics & master’s thesis labs</td>
-  </tr>
-</table>
+  <section class="workshops">
+    <p class="DevLvl"><strong>Development Level</strong></p>
+    <p class="TarAud"><strong>Target Student Audience</strong></p>
+    <p class="CourAlign"><strong>Course Alignment</strong></p>
+  <!-- </section>
+  <section> -->
+    <p><strong>Introductory Level</strong></p>
+    <p>First-semester Master’s students & First-semester Juniors</p>
+    <p>Core required courses & foundational project labs</p>
+  <!-- </section>
+  <section> -->
+    <p><strong>Intermediate Level</strong></p>
+    <p>2nd & 3rd semester Master’s, 2nd-semester Juniors, 1st-semester Seniors</p>
+    <p>Elective project courses & applied research units</p>
+  <!-- </section>
+  <section> -->
+    <p><strong>Advanced Level</strong></p>
+    <p>Final-year Master’s students & Final-semester Seniors</p>
+    <p>Capstones, client clinics & master’s thesis labs</p>
+  </section>
 </section>
+
 <section>
     <h2>Custom ELO In-Class Workshops</h2>
     <p>If you prefer a tailored session delivered directly during your class time, ELO staff can customize an interactive workshop specifically for your syllabus needs.</p>
@@ -110,10 +112,11 @@
     <h3><strong>👉 Submit your request: <a href="https://umsi.info/elo-workshops">ELO In-Class Workshop Request Form</a></strong></h3>
     <p><i>Questions about workshop content or custom tailoring? Contact Alissa Talley-Pixley, Senior Associate Director of Student Engagement, at </i><a href="mailto:alissat@umich.edu">alissat@umich.edu</a></p>
 </section>
+
 <section>
     <h2>Additional Campus Partner Resources</h2>
     <p>Cross-disciplinary partner organizations across the University of Michigan offer specialized instructional support and workshop sessions that you can incorporate into your curriculum.</p>
-<ul>
+<ul class="nestedList">
     <li><strong><a href="https://ginsberg.umich.edu/">Ginsberg Center for Community Engagement</a></strong>
     <ul>
         <li><i>Focus:</i> Prepares undergraduate and graduate students for respectful, reciprocal community-engaged learning in civic and non-profit settings.</li>
