@@ -384,14 +384,22 @@ footer a {
 }
 
 .error {
+    max-width: 60%;
     position: relative;
     top: 10rem;
+    background-color: rgba(256, 256, 256, 0.5);
+
 }
 
 .error h1 {
     font-size: 6rem;
 }
-
+.error h1, .error h2, .error h3 {
+    margin-left: 3rem;
+}
+.error h3 {
+    padding-bottom: 1rem;
+}
 .error div {
     height: 2rem;
 }
@@ -417,6 +425,15 @@ footer a {
     transition: 0.3s;
 }
 
+#squirrel {
+    position: fixed;
+    z-index: -1;
+     object-fit: cover;
+       width: 100vw;
+  height: 100vh;
+    top: -5%;
+    size: 1440px 900px
+}
 @media screen and (min-width: 800px) {
 
 main {
