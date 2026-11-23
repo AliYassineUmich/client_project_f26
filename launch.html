@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +13,25 @@
 </head>
 
 <body>
-<img id="top-logo" src="images/logo-header.jpg" alt="UMSI Logo" width="350">
+    <a href = "#main" class = "skip">Skip to Main Content</a>
+
     <header>
-  <a href = "#main" class = "skip">Skip to Main Content</a>
+      <img id="top-logo" src="images/logo-header.jpg" alt="UMSI Logo" width="350">
           <nav>
             <ul>
                 <!-- make active class for current page-->
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "launch.html">Launch Your Engaged Learning Journey</a></li>
+                <li class="current">Launch Your Engaged Learning Journey</li>
                 <li><a href = "ending.html">Ending Your Engaged Learning Journey</a></li>
-                <li><a href = "resources.html">Workshops and Resources</a></li>
+                <li><a href = "faculty_hub.html">Faculty Hub Workshops and Resources</a></li>
             </ul>
         </nav>
   </header>
+  <div class="menu_button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 <main id="main">
   
 <section>
@@ -46,7 +53,7 @@
   </ul>
 <section class="phases">
 <section id="prep">
-  <h1>Phase 1: Preparing for the Experience</h1>
+  <h2>Phase 1: Preparing for the Experience</h2>
   <p>Before creating a solution, take time to understand the context, evaluate your team's readiness, and identify what you still need to learn.</p>
     <figure>
     <img src="images//UMSI_stickynotes.jpg" alt="Students in a room work together with sticky notes" width="300">
@@ -58,7 +65,7 @@
   </article>
 
   <article>
-    <h2>Preparation Goals</h2>
+    <h3>Preparation Goals</h3>
     <ul>
       <li><strong>Develop social and community awareness:</strong> Examine your identity, positionality, assumptions, and privileges. Learn about the community's history and consider how power may affect participation and decision-making.
       </li>
@@ -70,7 +77,7 @@
   </article>
 
   <article>
-    <h2>Questions to Consider</h2>
+    <h3>Questions to Consider</h3>
     <ul>
       <li>What do I hope to learn from this experience?</li>
       <li>Who will be affected by the project and its outcomes?</li>
@@ -83,7 +90,7 @@
   </article>
 
   <article>
-    <h2>Recommended Preparation Process</h2>
+    <h3>Recommended Preparation Process</h3>
     <ol>
       <li><strong>Reflect on your position:</strong> Identify the experiences, identities, assumptions, and areas of privilege that may shape your approach.</li>
       <li><strong>Learn about the context:</strong> Research the organization, community, project history, affected stakeholders, and broader social conditions.</li>
@@ -94,7 +101,7 @@
     </ol>
   </article>
 
-  <h2>Featured Preparation Resources</h2>
+  <h3>Featured Preparation Resources</h3>
   <article>
     <p>Select a resource below below to learn more</p>
   </article>
@@ -104,49 +111,49 @@
 
     <article class="featured1">
     <a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot">
-    <h3>Social Identity Snapshot</h3>
+    <h4>Social Identity Snapshot</h4>
     <p>Diagnostic tool to reflect on self-awareness and positionality before entering community contexts.</p>
     </a>  
     </article>
 
     <article class="featured2">
     <a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn">
-    <h3>"Check Yourself" Community Engagement Checklist</h3>
+    <h4>"Check Yourself" Community Engagement Checklist</h4>
     <p>Quick audit for personal assumptions and ethical readiness.</p>
     </a>  
     </article>
 
     <article class="featured3">
     <a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing">
-    <h3>IAP2 Spectrum of Public Participation</h3>
+    <h4>IAP2 Spectrum of Public Participation</h4>
     <p>Framework for understanding levels of community involvement and decision-making power.</p>
     </a>  
     </article>
 
     <article class="featured4">
     <a href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link">
-    <h3>Project Scoping Handout & Terms</h3>
+    <h4>Project Scoping Handout & Terms</h4>
     <p>Guidance on translating partner needs into realistic project goals.</p>
     </a>  
     </article>
 
     <article class="featured5">
     <a href="https://docs.google.com/document/u/0/d/1uwOOS0TrXWzcSShj8DUFpckWo0t1UNu_Q7WVbZnLhX0/edit">
-    <h3>Project Manager</h3>
+    <h4>Project Manager</h4>
     <p>Guide: Roles, expectations, and commitments for student organization leaders.</p>
     </a>  
     </article>
 
     <article class="featured6">
     <a href="https://docs.google.com/document/d/1U4lCNGyWKJ3C2i_VgFqAR45Z4zF1FehuthuqT-M2wdI/edit?usp=drive_link">
-    <h3>Project Manager Commitment Form</h3>
+    <h4>Project Manager Commitment Form</h4>
     <p>Formal agreement outlining responsibilities for student leads</p>
     </a>
     </article>
 
     <article class="featured7">
     <a href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link">
-    <h3>Project Management Worksheet</h3>
+    <h4>Project Management Worksheet</h4>
     <p>Guidance on clarifying the project scope and objectives, team roles, and timeline. This worksheet can be used by the project team and shared with the client.</p>
     </a>
     </article>
@@ -163,19 +170,19 @@
 </section>
 
 <section id="starting">
-<h1>Phase 2: Starting Your Experience</h1>
+<h2>Phase 2: Starting Your Experience</h2>
 <p><i>Establishing professional communication, conducting initial meetings, and finalizing partnership agreements.</i></p>
-<h2>Value & Narrative</h2>
+<h3>Value & Narrative</h3>
   <p>First impressions shape the trajectory of a partnership. The starting phase is where abstract project ideas turn into structured, professional commitments. By establishing clear team contracts, co-creating agendas, and aligning on project scope early, you build <b>psychological safety within your team and trust with your client.</b> Learning how to navigate early ambiguity is one of the most valuable professional capabilities you will gain at UMSI.</p>
   
-<h2>Focus & Objectives</h2>
+<h3>Focus & Objectives</h3>
     <ul>
       <li><strong>Partner Communication:</strong> Draft clear, professional outreach to launch working relationships.</li>
       <li><strong>First Meetings:</strong> Structure productive kickoff meetings that define roles and project bounds.</li>
       <li><strong>Formalizing Agreements:</strong> Document team commitments and scope agreements shared by all stakeholders.</li>
     </ul>
 <div class="handouts">
-<h2>Featured Resources & Handouts</h2>
+<h3>Featured Resources & Handouts</h3>
 <ul>    
     <li><strong>📧 <a href="https://docs.google.com/document/d/1fWFXwoW5fKX_Tctn97Gio5XZDwILNlqIOyKKE8Yk5J0/edit?tab=t.0#heading=h.qyq2mtghv171">Initial Client Email Examples:</a></strong> Plug-and-play email templates for first contact with clients and partners.</li>
     <li><strong>🛠️ <a href="https://docs.google.com/document/d/1ItXxYauAcPoaGMUZWuJsX-OLFfGmeBOWT7JNhoZxGyU/edit?tab=t.0#heading=h.5s4q95ogo5af">Initial Client Meeting Sample Agenda:</a></strong> Step-by-step structure for running a professional kickoff call.</li>
@@ -187,12 +194,12 @@
 </div>
 </section>
 <section id="during">
-<h1>Phase 3: During Your Experience</h1>
+<h2>Phase 3: During Your Experience</h2>
 <p><i>Master the art of adaptive project management, human-centered fieldwork, and constructive feedback as you execute your project in real time.</i></p>
-<h2>The Value of Navigating Friction & Active Execution</h2>
+<h3>The Value of Navigating Friction & Active Execution</h3>
 <p>The middle of an engaged learning project is where real growth happens—and where real challenges surface. Real-world projects rarely follow a straight line. Requirements shift, team dynamics evolve, clients face unexpected internal constraints, and research data yields surprising results. The true value of this phase lies in developing resilience, adaptability, and ethical agility. Learning to manage "scope creep," navigate mid-project feedback, and re-align technical decisions with human needs are the exact experiences that distinguish top UMSI graduates. When you view friction not as a barrier, but as a natural part of the applied learning process, you develop the strategic problem-solving skills needed in modern information careers.</p>
 <p>The true value of this phase lies in developing <strong>resilience, adaptability, and ethical agility.</strong> Learning to manage "scope creep," navigate mid-project feedback, and re-align technical decisions with human needs are the exact experiences that distinguish top UMSI graduates. When you view friction not as a barrier, but as a natural part of the applied learning process, you develop the strategic problem-solving skills needed in modern information careers.</p>
-<h2>Focus & Objectives</h2>
+<h3>Focus & Objectives</h3>
 <ul>
   <li>Fieldwork & Research Methods: Apply human-centered design tools to observe contexts and extract insights.</li>
   <li>Sponsor & Client Updates: Maintain transparency with regular progress reporting.</li>
@@ -248,9 +255,9 @@ FIND RELEVANT LINKS FOR THE RESOURCES
 </table> 
 </section> -->
 <section>
-  <h1>Next Steps</h1>
+  <h2>Next Steps</h2>
   <p>Great! You've gone through the featured resources to get you prepared, started, and moving through your project.</p>
-  <p>Visit our <a href="ending.html">resources page</a> to see next steps for when you are close to finishing or offboarding a project. Or check out our <strong><a href="resources.html">Faculty Hub</a></strong> for more information and resources, or request a <strong><a href="https://umsi.info/elo-workshops"> Custom Workshop</a></strong><!--, or find out about out <strong>Campuse Partner Resources-->.</strong></p>
+  <p>Visit our <a href="ending.html">resources page</a> to see next steps for when you are close to finishing or offboarding a project. Or check out our <strong><a href="faculty_hub.html">Faculty Hub</a></strong> for more information and resources, or request a <strong><a href="https://umsi.info/elo-workshops"> Custom Workshop</a></strong><!--, or find out about out <strong>Campuse Partner Resources-->.</strong></p>
 </section>
 <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a prep page using the ELO content below" - this was after I had asked for content for the home page. " UMGPT. (2026). UMGPT ( GPT-5.6 Sol September 7th version) [Large language model]. -->
 </main>
@@ -259,9 +266,9 @@ FIND RELEVANT LINKS FOR THE RESOURCES
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+       <p>© <span class="year"></span> Regents of the University of Michigan</p>
     </footer>
-    
+    <script src="js/script.js"></script>
 </body>
 
 </html>

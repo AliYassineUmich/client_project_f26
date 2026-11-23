@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,19 +12,25 @@
     <title>Next Steps | UMSI</title>
 </head>
 <body>
-<img id="top-logo" src="images/logo-header.jpg" alt="UMSI Logo" width="350">
+      <a href = "#main" class = "skip">Skip to Main Content</a>
+
     <header>
-  <a href = "#main" class = "skip">Skip to Main Content</a>
+        <img id="top-logo" src="images/logo-header.jpg" alt="UMSI Logo" width="350">
         <nav>
             <ul>
                 <!-- make active class for current page-->
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "launch.html">Launch Your Engaged Learning Journey</a></li>
-                <li><a href = "ending.html">Ending Your Engaged Learning Journey</a></li>
-                <li><a href = "resources.html">Workshops and Resources</a></li>
+                <li class="current">Ending Your Engaged Learning Journey</li>
+                <li><a href = "faculty_hub.html">Faculty Hub Workshops and Resources</a></li>
             </ul>
         </nav>
   </header>
+  <div class="menu_button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 <main id="main">
     <section>
     <h1>Wrap-Up, Impact & Next Steps</h1>
@@ -72,7 +79,7 @@
     </section>
     <section>
     <h2>More Resources</h2>
-    <p>Visit our <strong><a href="resources.html">Faculty Hub</a></strong> for more information and resources. Request a <strong><a href="https://umsi.info/elo-workshops"> Custom Workshop</a></strong> and find out about out <strong>Campuse Partner Resources.</strong></p>
+    <p>Visit our <strong><a href="faculty_hub.html">Faculty Hub</a></strong> for more information and resources. Request a <strong><a href="https://umsi.info/elo-workshops"> Custom Workshop</a></strong> and find out about out <strong>Campuse Partner Resources.</strong></p>
     </section>
 </main>
 <footer>
@@ -80,7 +87,8 @@
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+       <p>© <span class="year"></span> Regents of the University of Michigan</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
